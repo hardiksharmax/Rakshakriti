@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/devicename"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Device Name: Arun's Tracker"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/Devicecode"
+        android:layout_below="@+id/devicename"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Device code: 01"
+        android:textSize="20sp"
+        android:textColor="#000000"
+
+
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/CurrentLocation"
+        android:layout_below="@+id/Devicecode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Current Location :Faridabad"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/Battery"
+        android:layout_below="@+id/CurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Battery Standby: 100%"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+
+</RelativeLayout>

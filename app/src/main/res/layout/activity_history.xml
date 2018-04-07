@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/hist1"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Lat=28.6553 , lon=76.2543 Time=8:00AM"
+    android:textSize="20sp"
+    android:padding="8dp"
+        android:textColor="#000000"
+    />
+    <TextView
+        android:id="@+id/hist2"
+        android:layout_below="@+id/hist1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Lat=29.6553 , lon=75.2543 Time=7:30AM"
+        android:textSize="20sp"
+        android:textColor="#000000"
+
+
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/hist3"
+        android:layout_below="@+id/hist2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Lat=28.6553 , lon=76.2543 Time=7:00AM"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/hist4"
+        android:layout_below="@+id/hist3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Lat=27.6553 , lon=78.2543 Time=6:30AM"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+
+</RelativeLayout>

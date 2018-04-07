@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="User"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/username"
+        android:layout_below="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Username: Varun Verma"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+
+        android:padding="8dp"
+        />
+
+    <Button
+        android:id="@+id/deactivate"
+
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignParentEnd="true"
+        android:text="Deactivate"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_below="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Phone Number: 9856546585"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/Accounts"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Accounts"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="#000000"
+
+
+        />
+    <TextView
+        android:id="@+id/Range"
+        android:layout_below="@+id/Accounts"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Range"
+        android:textSize="20sp"
+        android:textColor="#000000"
+
+
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/Duration"
+        android:layout_below="@+id/Range"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Duration"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/Aboutus"
+        android:layout_below="@+id/Duration"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="About us"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+
+</RelativeLayout>
+

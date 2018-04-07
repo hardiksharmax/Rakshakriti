@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/accountshead"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Accounts"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/usersetting"
+        android:layout_below="@+id/accountshead"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="User"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/devicesetting"
+        android:layout_below="@+id/usersetting"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+
+        android:text="Device"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+
+
+
+</RelativeLayout>

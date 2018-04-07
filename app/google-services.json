@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "788692059498",
+    "firebase_url": "https://ardunio-gps.firebaseio.com",
+    "project_id": "ardunio-gps",
+    "storage_bucket": "ardunio-gps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788692059498:android:3e2418462959e5c1",
+        "android_client_info": {
+          "package_name": "com.app.track"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788692059498-7hj4bau6od0f326n7qh3ddg2ri611juk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA1k9Dpqr5wchzgB3w14xxZJ5I0Qcor8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788692059498:android:43c3d2d86d3f2c62",
+        "android_client_info": {
+          "package_name": "vsnick.jasmine.esproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788692059498-n9fht9rf8ps34se4f9iec6jr9esog8po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vsnick.jasmine.esproject",
+            "certificate_hash": "fe5127f505b2540711a8892129d3eb18839cab34"
+          }
+        },
+        {
+          "client_id": "788692059498-7hj4bau6od0f326n7qh3ddg2ri611juk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA1k9Dpqr5wchzgB3w14xxZJ5I0Qcor8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788692059498-7hj4bau6od0f326n7qh3ddg2ri611juk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
