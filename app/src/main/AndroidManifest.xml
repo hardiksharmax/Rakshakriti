@@ -45,6 +45,7 @@
         <activity android:name=".Range" />
         <activity android:name=".Duration" />
         <activity android:name=".About_Us" />
+        <activity android:name=".Directionmaps"/>
         <activity android:name=".Main2Activity"></activity>
     </application>
 
